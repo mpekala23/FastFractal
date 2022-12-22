@@ -1,0 +1,19 @@
+# Specify filepatterns you want git to ignore.
+
+build/*
+status.current_container_id
+src/CMake*
+src/Makefile
+*.DS_Store
+output/*
+.vscode/*
+main
+main2
+src/benchmarking/CMakeFiles/*
+src/benchmarking/benchmark_file
+src/benchmarking/benchmark_parallel
+src/benchmarking/benchmark_scales
+src/benchmarking/cmake_install.cmake
+src/benchmarking/Makefile
+test_infra/scratch/*
+images/*
